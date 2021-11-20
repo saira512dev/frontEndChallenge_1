@@ -81,13 +81,14 @@ h4 {
   color: var(--Dark-blue);
   font-weight: bold;
   font-size: 15px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 #plans a {
   color: var(--Bright-blue);
   font-size: 13px;
   font-weight: bold;
+  margin-left: 5px;
 }
 
 #plans a:hover {
