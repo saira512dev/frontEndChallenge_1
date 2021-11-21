@@ -92,7 +92,7 @@ p {
   font-size: 13px;
   font-weight: bold;
   margin-left: 5px;
-  text-underline-offset: 0.1px;
+  text-underline-offset: 0.005rem;
 }
 
 #plans a:hover {
