@@ -29,7 +29,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 20rem;
   background: #fff;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 3px 10px 5px var(--shadow-panel);
@@ -150,12 +150,6 @@ p {
   }
 
   #container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    background: #fff;
-    border-radius: 20px 20px 20px 20px;
+    width: 22rem;
   }
 }
