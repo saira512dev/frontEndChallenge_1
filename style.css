@@ -13,6 +13,8 @@
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
+  --shadow-panel: hsla(223, 47%, 23%, 0.1);
+  --button-hover: hsla(245, 75%, 52%, 0.7);
 }
 
 body {
@@ -30,6 +32,7 @@ body {
   width: 300px;
   background: #fff;
   border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 10px 5px var(--shadow-panel);
 }
 
 img {
@@ -72,6 +75,7 @@ h4 {
 #plans img {
   width: 45px;
   height: auto;
+  margin-left: 5px;
 }
 
 #options {
@@ -89,6 +93,7 @@ h4 {
   font-size: 13px;
   font-weight: bold;
   margin-left: 5px;
+  text-underline-offset: 0.1px;
 }
 
 #plans a:hover {
@@ -110,7 +115,7 @@ h4 {
 
 #buttons .btn {
   height: 50px;
-  font-size: 15px;
+  font-size: 12px;
   border: none;
   font-weight: bold;
 }
@@ -119,12 +124,12 @@ h4 {
   background: var(--Bright-blue);
   color: var(--Very-pale-blue);
   border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 20px 10px var(--Very-pale-blue);
+  box-shadow: 5px 15px 5px var(--shadow-panel);
   z-index: 1;
 }
 
 .btn-primary:hover {
-  background: var(--Desaturated-blue);
+  background: var(--button-hover);
 }
 
 .btn-secondary {
