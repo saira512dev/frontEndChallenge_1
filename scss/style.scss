@@ -1,10 +1,14 @@
+@import "reset";
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   a:not([class]) {
+//     text-decoration-skip-ink: auto;
+//   }
+// }
 
 :root {
   font-family: "Red Hat Display", sans-serif;
@@ -92,6 +96,7 @@ p {
   font-size: 13px;
   font-weight: bold;
   margin-left: 5px;
+  // padding-bottom: 5px;
   text-underline-offset: 0.005rem;
 }
 
